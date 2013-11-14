@@ -1,0 +1,129 @@
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    clear: both;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+    margin-left: 0px;
+}
+
+.omega {
+    margin-right: 0px;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+$grid_percent: 8.333333%;
+
+.container_12 .grid_1 {
+    width: $grid_percent*1;
+}
+
+.container_12 .grid_2 {
+    width: $grid_percent*2;
+}
+
+.container_12 .grid_3 {
+    width: $grid_percent*3;
+}
+
+.container_12 .grid_4 {
+    width: $grid_percent*4;
+}
+
+.container_12 .grid_5 {
+    width: $grid_percent*5;
+}
+
+.container_12 .grid_6 {
+    width: $grid_percent*6;
+}
+
+.container_12 .grid_7 {
+    width: $grid_percent*7;
+}
+
+.container_12 .grid_8 {
+    width: $grid_percent*8;
+}
+
+.container_12 .grid_9 {
+    width: $grid_percent*9;
+}
+
+.container_12 .grid_10 {
+    width: $grid_percent*10;
+}
+
+.container_12 .grid_11 {
+    width: $grid_percent*11;
+}
+
+.container_12 .grid_12 {
+    width: $grid_percent*12;
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 0px;
+}
+
+.clearfix {
+    display: block;
+} 

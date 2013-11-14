@@ -1,4 +1,0 @@
-handbook
-========
-
-Handbook maquetación
